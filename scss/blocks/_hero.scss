@@ -1,0 +1,87 @@
+.hero {
+  .container {
+    display: flex;
+    padding-top: 109px;
+  }
+  &__text {
+    font-family: "Exo2-SemiBold";
+    font-size: 52px;
+    width: 605px;
+    margin: 90px 0 40px 0;
+  }
+  &__logo {
+    max-width: 635px;
+  }
+  &__title {
+    margin-bottom: 40px;
+  }
+  & h5 {
+    font-family: "Exo2-SemiBold";
+    color: black;
+    margin-bottom: 1px;
+    font-size: 14px;
+  }
+  &__picture {
+    max-width: 104px;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .hero {
+    .container {
+      display: block;
+    }
+    .hero__text {
+      max-width: 610px;
+      text-align: center;
+    }
+    .hero__title {
+      margin-left: 20px;
+      max-width: 610px;
+      text-align: center !important;
+    }
+  }
+}
+@media only screen and (max-width: 690px) {
+  .container {
+    h5 {
+      margin-left: 250px;
+      // text-align: center;
+    }
+    .hero__img {
+      margin-left: 226px;
+    }
+    img {
+      padding: 20px;
+    }
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero {
+    .container {
+      display: block;
+    }
+    .hero__text {
+      margin-left: 15px;
+      text-align: start;
+    }
+    .hero__title {
+      margin-left: 15px;
+      max-width: 610px;
+      text-align: start;
+    }
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container {
+    h5 {
+      margin-left: 15px;
+    }
+    .hero__img {
+      margin-left: 0px;
+    }
+    img {
+      border-radius: 20px;
+      padding: 15px;
+    }
+  }
+}

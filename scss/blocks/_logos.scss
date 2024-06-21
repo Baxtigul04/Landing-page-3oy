@@ -1,0 +1,28 @@
+.logos {
+  margin-top: 120px;
+  & h2 {
+    font-family: "Exo2-Medium";
+    margin-bottom: 90px;
+    font-size: 48px;
+    color: #363738;
+  }
+  &__part {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+  }
+  &__title {
+    width: 184px;
+  }
+  &__title img {
+    margin-bottom: 32px;
+  }
+  &__title h5 {
+    font-family: "Exo2-Medium";
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+  &__title p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,102 @@
+.work {
+  margin-top: 120px;
+
+  & h2 {
+    margin-bottom: 32px;
+    max-width: 687px;
+    font-family: "Exo2-SemiBold";
+    font-size: 48px;
+    color: #363738;
+  }
+  & p {
+    font-size: 16px;
+    margin-bottom: 56px;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content img {
+    max-width: 393px;
+    margin-bottom: 24px;
+  }
+  &__content h4 {
+    margin-left: 32px;
+    font-size: 20px;
+    color: #363738;
+    margin-bottom: 16px;
+  }
+  &__content p {
+    margin-left: 32px;
+    margin-bottom: 32px;
+    max-width: 290px;
+  }
+  .content__logo {
+    margin-left: 32px;
+  }
+  .content-one {
+    border-radius: 20px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+  }
+  .content-two {
+    border-radius: 20px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+  }
+  .content-tree {
+    border-radius: 20px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+  }
+}
+@media only screen and (max-width: 650px) {
+  .work__content {
+    display: block;
+  }
+  .work {
+    h2 {
+      margin-left: 15px;
+    }
+    p {
+      margin-left: 15px;
+    }
+  }
+  .content-one {
+    text-align: center;
+    & p {
+      margin: 0 auto;
+    }
+  }
+  .content-two {
+    text-align: center;
+    & p {
+      margin: 0 auto;
+    }
+  }
+  .content-tree {
+    text-align: center;
+    & p {
+      margin: 0 auto;
+    }
+  }
+}
+@media only screen and (max-width: 390px) {
+  .work {
+    .content-one {
+      margin-left: 20px;
+      &__img {
+        max-width: 250px;
+      }
+    }
+    .content-two {
+      margin-left: 20px;
+      & img {
+        max-width: 250px;
+      }
+    }
+    .content-tree {
+      margin-left: 20px;
+      & img {
+        max-width: 250px;
+      }
+    }
+  }
+}

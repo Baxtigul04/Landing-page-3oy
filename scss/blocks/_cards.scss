@@ -1,0 +1,22 @@
+.cards {
+  &__header {
+    background-color: #0b7572;
+    margin-top: 68px;
+    position: relative;
+    height: 454px;
+  }
+  &__title {
+    max-width: 550px;
+    font-size: 48px;
+    font-family: "Exo2-Medium";
+    color: #fff;
+    text-align: left;
+    padding-top: 176px;
+    padding-left: 85px;
+  }
+  &__img {
+    position: absolute;
+    clip-path: polygon(33% 0, 100% 0, 100% 100%, 53% 100%);
+    top: 0;
+  }
+}
